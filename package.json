@@ -1,0 +1,31 @@
+{
+  "name": "chrome-headless-docker",
+  "version": "0.1.0",
+  "description": "Headless Chrome in Docker",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "build": "docker build -t chrome-headless-docker .",
+    "start:prod": "docker run --shm-size=2gb -p 8081:8081 chrome-headless-docker:latest",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "chrome",
+    "api",
+    "docker"
+  ],
+  "author": {
+    "name": "Arjun Komath",
+    "email": "arjunkomath@gmail.com"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "bluebird": "^3.7.1",
+    "express": "^4.17.1",
+    "get-port": "^5.0.0",
+    "http-proxy": "^1.18.0",
+    "puppeteer": "^1.20.0",
+    "uuid": "^3.3.2",
+    "winston": "^3.2.1"
+  }
+}
