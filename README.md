@@ -1,3 +1,3 @@
 # Chrome headless docker
 
-## Headless Chrome in Docker
+Headless Chrome in Docker
