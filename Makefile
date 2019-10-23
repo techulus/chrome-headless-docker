@@ -1,4 +1,4 @@
-IMAGE_ID := docker.pkg.github.com/techulus/chrome-headless-docker
+IMAGE_ID := docker.pkg.github.com/techulus/chrome-headless-docker/stable
 
 test:
 	true
