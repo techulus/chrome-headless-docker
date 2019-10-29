@@ -6,7 +6,7 @@
 
 ## Build
 
-Using can build the application using:
+You can build the application using:
 ```
 docker build -t chrome-headless-docker .
 ```
