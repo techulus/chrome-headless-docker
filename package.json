@@ -23,7 +23,7 @@
     "bluebird": "^3.7.1",
     "express": "^4.17.1",
     "get-port": "^5.0.0",
-    "http-proxy": "^1.18.0",
+    "http-proxy": "^1.18.1",
     "puppeteer": "^1.20.0",
     "uuid": "^3.3.2",
     "winston": "^3.2.1"
